@@ -1,0 +1,524 @@
+body {
+  font-family: 'Cambay', sans-serif !important;
+  color: #7c7c7c !important;
+  font-size: 18px !important;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  padding: 10px 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.homeHighlightStrip {
+  /*margin: 0 -230px;*/
+  /*background-image: url('../images/bookshelf-fade.jpg');*/
+  background-color: #49c4a2;
+  /*background-color: #f15a5f;*/
+  height: 400px;
+  padding-top: 120px;
+}
+
+.highlightStrip {
+  margin: 5px 0;
+  /*background-color: #c49e21;*/
+  border-bottom: 2px solid #49c4a2;
+  height: 100px;
+}
+
+.homeSearchBar {
+  font-size: 1.5em !important;
+  height: 50px !important;
+  display: inline-block !important;
+  line-height: 1.8em;
+  width: 100%;
+  padding: 4px 8px;
+  /*background:white url(http://i.imgur.com/lFkqn.png) left center no-repeat;*/
+}
+
+.homeSearchBtn {
+  height: 50px;
+  position: absolute;
+  right: 0 !important;
+  top: 0;
+}
+
+.homeSearchBtn.floating {
+  right: auto;
+  margin-left: -60px;
+}
+
+.searchBtn {
+  height: 50px !important;
+}
+
+.searchContainer {
+}
+
+.searchBox {
+  margin-top: 10px;
+  background-color: #fff;
+  height: 20px;
+  padding: 20px;
+}
+
+.homeHowToUse {
+  background-color: #f4f4f4;
+}
+
+/*Start Search Page*/
+.bookListing {
+  height: 350px;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 15px;
+}
+
+.bookListing:hover {
+  /*background-color: #f4f4f4;*/
+}
+
+.textCenter {
+  text-align: center
+}
+
+#owl-demo .item {
+  margin: 3px;
+}
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.searchResult:hover {
+  background-color: #f4f4f4;
+}
+
+.searchResultTitle {
+  padding-top: 5px;
+}
+
+.searchResultImage {
+  max-width: 100%;
+  height: 180px;
+  border: 1px solid #F3F2F2;
+}
+
+.searchResultAuthor {
+  padding-top: 5px;
+}
+
+.searchResultPrice {
+  /*color: #00b700;*/
+  padding: 5px;
+}
+
+/*End Search Page*/
+
+/*BookPage*/
+/*Mobile*/
+@media (max-width: 767px) {
+  .pagetopMargin {
+    margin-top: 150px;
+  }
+
+  .homePageTitle {
+    font-size: 2em;
+    line-height: 1.3em;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .homePageSearchBar {
+    padding-bottom: 20px;
+    top: 0;
+  }
+
+  .productImage {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+/*Web*/
+@media (min-width: 768px) {
+  .pagetopMargin {
+    margin-top: 100px;
+  }
+
+  .storeRatings {
+    border-left: 1px solid #ddd;
+    padding: 0 5px
+  }
+
+  .homePageTitle {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .homePageSearchBar {
+    padding-bottom: 20px;
+    top: 50px;
+  }
+
+  .productImage {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.productPrimaryDetails {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.productPageTitle {
+  margin: auto;
+}
+
+.productPageSection {
+  margin-bottom: 60px;
+}
+
+.productPageHeading {
+  /*border-bottom: 2px solid #ddd;*/
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.buyLink {
+  color: #fff;
+}
+
+.buyLInk :hover {
+  text-decoration: none !important;
+}
+
+.priceTable tr td {
+  border-top: none !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.bookSpecTable tr td {
+  border-top: none !important;
+  padding: 2px !important;
+}
+
+.text07 {
+  font-size: .7em;
+}
+
+.text08 {
+  font-size: .8em;
+}
+
+.text09 {
+  font-size: .9em;
+}
+
+.text11 {
+  font-size: 1.1em;
+}
+
+.text12 {
+  font-size: 1.2em;
+}
+
+.text13 {
+  font-size: 1.3em;
+}
+
+.text14 {
+  font-size: 1.4em;
+}
+
+.text15 {
+  font-size: 1.5em;
+}
+
+.text16 {
+  font-size: 1.6em;
+}
+
+.text17 {
+  font-size: 1.7em;
+}
+
+.text18 {
+  font-size: 1.8em;
+}
+
+.text19 {
+  font-size: 1.9em;
+}
+
+.text20 {
+  font-size: 2em;
+}
+
+.textWhite {
+  color: #fff;
+}
+
+.textLightGray {
+  color: #e8e8e8;
+}
+
+.textMediumGray {
+  color: #adadad;
+}
+
+.textDarkGray {
+  color: #7c7c7c;
+}
+
+.clearFix30 {
+  clear: both;
+  height: 30px;
+}
+
+.clearFix60 {
+  clear: both;
+  height: 60px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.greenRating {
+  color: green;
+}
+
+.yellowRating {
+  color: #ffa707;
+}
+
+.redRating {
+  color: red;
+}
+
+.thumbnail {
+  list-style-type: none;
+}
+
+/*End bookpage*/
+
+/*TOP BAR*/
+.topBar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+  top: 0;
+  background-color: #fff;
+  border-bottom: solid #49c4a2;
+  padding: 10px 0;
+  box-shadow: 0 2px 2px rgb(226, 229, 228);
+}
+
+body {
+  padding-bottom: 370px;
+}
+
+footer {
+  /*padding: 15px;*/
+  background-color: #f3ff74;
+  /*position: relative;*/
+  /*opacity: 2.0;*/
+  /*width: 100%;*/
+  /*margin-top: 100px;*/
+  /*clear:both;*/
+}
+
+/*Start Utiliity Class*/
+
+.noPadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.fullWidthUtil {
+  width: 100%;
+}
+
+.maxFullWidthUtil {
+  max-width: 100%;
+}
+
+/*End Utility Class*/
+
+.navigationMenu {
+  position: absolute;
+  right: 10px;
+}
+
+.navigationMenu a {
+  padding-left: 15px;
+}
+
+.navigationMenu a.current {
+  font-weight: bold;
+  color: #525252;
+}
+
+/*Table*/
+.flat-table {
+  margin-top: 10px;
+}
+
+.flat-table th {
+  background-color: rgb(196, 189, 42);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+}
+
+.flat-table td {
+  background-color: rgb(244, 244, 244);
+  /*color: rgb(111, 111, 111);*/
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+/*
+Add/edit Listicle Form
+*/
+.right-label-large {
+  width: 100%;
+}
+
+.right-label-large label {
+  line-height: 1.8;
+  vertical-align: middle;
+  width: 30%;
+  text-align: left;
+  padding: 15px;
+  clear: both;
+}
+
+.right-label-large input, .right-label-large select, .right-label-large textarea, .right-label-large button {
+  width: 600px;
+  display: inline-block ;
+  padding: 5px;
+  margin: 5px;
+  align-items: right;
+}
+
+.right-label-large textarea{
+  width: 500px;
+}
+
+.right-label-large .sectionTitle{
+  color: #0066cc;
+  padding: 10px;
+}
+
+.imageBlock {
+  /*border: 1px solid grey;*/
+}
+
+.remove-item {
+  background-color: #D44047;
+  color: white;
+  border: none;
+  font-size: small;
+  margin: 10px 0;
+}
+
+.remove-item:hover {
+  background-color: #f4464d;
+  color: white;
+}
+
+.add-item {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: small;
+  margin: 10px 0;
+}
+
+.add-item:hover {
+  background-color: #00b600;
+  color: white;
+}
+
+.submitButton {
+  top: 100px;
+  right: 0px;
+  position: fixed;
+  z-index: 10;
+  background: none;
+  border: none;
+  font-weight: bold;
+  text-align: right;
+  color: black;
+}
+
+.card {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-radius: 10px;
+  background: #D7E6E4;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+.itemCard {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-radius: 10px;
+  background: #FAF7C0;
+  -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+a.current {
+  color: #525252;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.imageCredit {
+  font-size: 0.8em;
+  color: #adadad;
+}
+
+.imageCredit a{
+  font-size: 0.8em;
+  color: #adadad;
+}
+
+
+
+/*End Utility Class*/
+.chart .bar {
+  width: 10px;
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px 3px 3px 3px;
+  margin-right: 2px;
+  color: white;
+}

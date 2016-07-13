@@ -1,0 +1,15 @@
+*.idea
+*.pdf
+node_modules/*
+.iml
+config/environment.js
+*.swp
+/backups
+/node_modules
+/data/*.json
+.idea/
+*.iml
+*.log
+devConfig.js
+logs/*
+

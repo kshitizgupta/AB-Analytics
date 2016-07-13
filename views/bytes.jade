@@ -1,0 +1,34 @@
+extends layout
+
+block head
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p You have just #{bytesLeft} GBs of data left in your broadband package
+  //div.chart
+  //  each val in stats
+  //    div.row
+  //      div.col-md-3
+  //        span #{val.date.toString().substr(0,15)} -
+  //      div.col-md-9
+  //        div.chart-item(style="width: " + parseInt(val.usage*30 + 10) + "px") #{val.usage}
+  div.chart
+  script(type='text/javascript').
+    d3.select("body").append("p").text("New paragraph!");
+    d3.select(".chart").append("p").text("New asda paragraph!");
+    /*var id =!{JSON.stringify(id)};*/
+    //var file="temp/"+id+".coverageHist.txt";
+
+    var dataset = [1,3,5];
+    d3.select(".chart").selectAll("div")
+            .data(dataset)
+            .enter()
+            .append("div")
+            .attr("class", "bar")
+            //.attr("class", "col-md-3")
+            .style("height", function (d) {
+                     var barHeight = d * 5;
+                     return barHeight + "px";
+                   });
+
